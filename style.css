@@ -157,13 +157,13 @@ h1 {
     border-radius: 10px;
 }
 
-p:first-child {
+.cta-text p:first-child {
     color: white;
     font-weight: 900;
     margin-bottom: 0;
 }
 
-p:last-child {
+.cta-text p:last-child {
     color: white;
     margin-top: 10px;
 }
@@ -177,4 +177,15 @@ p:last-child {
 
 .btn-cta:hover {
     background-color: #2596be;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    font-weight: 900;
 }
