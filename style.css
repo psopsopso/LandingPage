@@ -114,3 +114,67 @@ h1 {
     width: 100%;
     height: 250px;
 }
+
+.citation-section {
+    background-color: #e5e7eb;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.citation {
+    font-size: 26px;
+    color: #1F2937;
+    font-style: italic;
+    max-width: 50%;
+}
+
+.author {
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.box p {
+    text-align: center;
+}
+
+.cta-section {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-rect {
+    display: flex;
+    background-color: #3882F6;
+    width: 70%;
+    height: 30%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+p:first-child {
+    color: white;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+p:last-child {
+    color: white;
+    margin-top: 10px;
+}
+
+.btn-cta {
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.btn-cta:hover {
+    background-color: #2596be;
+}
